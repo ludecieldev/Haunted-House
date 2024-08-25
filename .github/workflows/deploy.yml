@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Déclenche le workflow sur les pushs vers la branche principale
+      - master
 
 jobs:
   build:
